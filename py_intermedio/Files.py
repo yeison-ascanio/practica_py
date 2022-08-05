@@ -1,7 +1,3 @@
-import numbers
-from turtle import numinput
-
-
 def read():
     numbers = []
     with open("py_intermedio/Files/numbers.txt","r", encoding="utf-8") as f:
