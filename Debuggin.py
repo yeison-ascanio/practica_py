@@ -1,13 +1,6 @@
-from site import venv
-
-
 def divisior(num):
-    try:
         divisiors = [i for i in range(1, num+1) if num % i == 0]
         return divisiors
-    except ValueError as ve:
-        return print(ve)
-
 
 def run():
     try:
@@ -23,6 +16,5 @@ def run():
     except ValueError:
         print('Debes ingresar un numero valido.')
 
-
 if __name__ == '__main__':
-    run()
+    run() 
